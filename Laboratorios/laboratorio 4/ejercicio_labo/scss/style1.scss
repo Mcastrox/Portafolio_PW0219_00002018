@@ -1,0 +1,27 @@
+$font-color: blue;
+
+@mixin flex1{
+    display: flex;
+    justify-content: flex-end;
+}
+@mixin flex2($direction,$align,$v_align){
+    display:flex;
+    flex-direction: $direction;
+    justify-content: $align;
+    align-items: $v_align;
+}
+@mixin flex3($space,$align){
+justify-content: $space;
+align-items: $align;
+}
+
+.container1{
+    @include flex1();
+}
+.container2{
+   
+    @include flex2(column,center,center);
+}
+.contariner3{
+    @include flex3(space-around,flex-end);
+}

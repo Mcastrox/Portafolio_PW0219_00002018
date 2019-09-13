@@ -1,3 +1,10 @@
 {
-    "liveServer.settings.multiRootWorkspaceName": "Portafolio_PW0219_00002018"
+    "liveServer.settings.multiRootWorkspaceName": "Portafolio_PW0219_00002018",
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "~/../css"
+        }
+    ]
 }
