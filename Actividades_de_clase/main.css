@@ -1,0 +1,88 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+body section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.a{
+
+    width: 80%;
+    border:solid red 10px;
+    margin-top: 40px;
+}
+
+.titulo{
+    text-align:center;
+    color :red;
+}
+aside{
+    display:flex;
+    justify-content:center;
+    width: 100%;
+   
+}
+fieldset{
+    width: 80%;
+}
+.d1 .d2 .d3 .d4{
+  border:solid red 3px;
+   margin: 30%;
+   
+}
+
+p{
+    text-align: center;
+}
+body h2 {
+    text-align:center;
+    
+}
+body h2:hover{
+    background-color: RED;
+}
+body img{
+    height: 800px;
+    width: 600px;
+    border:solid red 20px;
+}
+.d1 .codigo{
+    height: 400px;
+    width: 400px;
+}
+.d4 .nexxtor {
+width: 600px;
+height: 400px;
+}
+footer{
+    background-color: white;
+    width: 100%;
+    margin-top: 60px;
+}
+footer div p{
+   
+text-align:center;
+color: black;
+font-size: 20px;
+font-weight: 900;
+}
+
+.arriba{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+    bottom:15px;
+    right: 15px;
+    width:50px;
+    height: 50px;
+    border-radius:50%;
+    background-color: red;
+    cursor:pointer;
+}
